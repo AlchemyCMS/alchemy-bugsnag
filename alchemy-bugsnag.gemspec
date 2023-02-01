@@ -18,4 +18,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "alchemy_cms", ">= 4.6.7", "< 7"
   spec.add_dependency "bugsnag", "~> 6.0"
+
+  spec.add_development_dependency "github_changelog_generator"
 end

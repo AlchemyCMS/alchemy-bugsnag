@@ -13,3 +13,11 @@ Rake::TestTask.new(:test) do |t|
 end
 
 task default: :test
+
+require "github_changelog_generator/task"
+require "alchemy/bugsnag/version"
+GitHubChangelogGenerator::RakeTask.new(:changelog) do |config|
+  config.user = "AlchemyCMS"
+  config.project = "alchemy-bugsnag"
+  config.future_release = "v#{Alchemy::Bugsnag::VERSION}"
+end
