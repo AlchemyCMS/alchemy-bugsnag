@@ -16,8 +16,10 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "alchemy_cms", ">= 4.6.7", "< 8"
+  spec.add_dependency "alchemy_cms", ">= 7", "< 9"
   spec.add_dependency "bugsnag", "~> 6.0"
 
   spec.add_development_dependency "github_changelog_generator"
+  spec.add_development_dependency "sqlite3", "~> 2.6"
+  spec.add_development_dependency "rspec-rails", "~> 8.0"
 end
