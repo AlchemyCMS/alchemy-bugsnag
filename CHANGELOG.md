@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 (2025-12-10)
+
+## What's Changed
+* Add reusable release workflows by @tvdeyen in https://github.com/AlchemyCMS/alchemy-bugsnag/pull/2
+* Add Alchemy 8.0 support by @tvdeyen in https://github.com/AlchemyCMS/alchemy-bugsnag/pull/3
+
+
+**Full Changelog**: https://github.com/AlchemyCMS/alchemy-bugsnag/compare/v1.1.0...v1.2.
 ## [v1.1.0](https://github.com/AlchemyCMS/alchemy-bugsnag/tree/v1.1.0) (2023-07-06)
 
 [Full Changelog](https://github.com/AlchemyCMS/alchemy-bugsnag/compare/v1.0.0...v1.1.0)
