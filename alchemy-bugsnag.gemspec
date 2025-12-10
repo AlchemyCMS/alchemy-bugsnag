@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "bugsnag", "~> 6.0"
 
   spec.add_development_dependency "github_changelog_generator"
+  spec.add_development_dependency "sqlite3", "~> 2.6"
+  spec.add_development_dependency "rspec-rails", "~> 8.0"
 end
