@@ -11,6 +11,7 @@ module Dummy
     config.logger = Logger.new(STDOUT)
     config.active_support.to_time_preserves_timezone = :zone
     config.paths["config/database"] = File.join(config.root, "config", "database.yml")
+    config.active_storage.service = :test
   end
 end
 
